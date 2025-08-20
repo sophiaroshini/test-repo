@@ -1,4 +1,4 @@
-name: Demo Workflow   # Workflow name
+name: trigger Workflow   # Workflow name
 
 on: 
  push:             # Trigger (runs on push)
