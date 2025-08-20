@@ -1,2 +1,2 @@
-apiVersion:
+apiVersion: v2
 kind: Pod
