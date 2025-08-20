@@ -5,7 +5,7 @@ on:
   branches: 
   - dev1
   paths: 
-   - "application.txt"
+   - "application.yml"
 
 jobs:
   build:              # Job name
