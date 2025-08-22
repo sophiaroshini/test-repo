@@ -10,3 +10,4 @@ jobs:
         run: |
           response=$(curl -s https://api.github.com/repos/actions/runner/releases/latest)
           echo "Response: $response"
+          version= $$response" | jq -r 'tag_name')
