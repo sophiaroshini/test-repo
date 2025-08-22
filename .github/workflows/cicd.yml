@@ -1,0 +1,12 @@
+name: Catch API Data
+on: [workflow_dispatch]
+
+jobs:
+  get-api-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call API with curl
+        id: callapi
+        run: |
+          response=$(curl -s https://api.github.com/repos/actions/runner/releases/latest)
+          echo "Response: $response"
